@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Portfolio</title>
+</head>
+<body class="font-sans bg-gray-900 text-gray-100">
+    
+    <!-- Navigation -->
+    <nav class="w-full flex justify-end bg-red-600 text-white h-20 items-center px-5 fixed border-b-2 border-black">
+        <p class="mx-4">About</p> 
+        <p class="mx-4">Work</p>
+        <p class="mx-4">Contact</p>
+    </nav>
+
+    <!-- Banner Section -->
+    <div class="banner h-screen bg-gradient-to-b from-gray-700 to-gray-900 flex flex-col justify-center items-center text-center">
+        <h1 class="text-5xl font-bold">Hey I am Awais 👻</h1>
+        <p class="text-2xl italic text-red-500 mt-4">a web developer</p>
+    </div>
+
+    <!-- Project Section -->
+    <div class="project-sec bg-blue-800 py-10">
+        <div class="heading-3 text-center">
+            <h3 class="text-4xl font-bold text-gray-100 mb-8 border-b-2 border-white inline-block">These are some of my projects</h3>
+        </div>
+
+        <div class="grid grid-cols-3 gap-6 mx-10">
+            <div class="grid-item">
+                <img src="tribute.jpg" alt="" class="w-full h-64 object-cover">
+                <p class="text-center text-gray-100 bg-gray-700 py-4">Tribute Page</p>
+            </div> 
+            <div class="grid-item">
+                <img src="random-quote-machine.png" alt="" class="w-full h-64 object-cover">
+                <p class="text-center text-gray-100 bg-gray-700 py-4">Random Quote Machine</p>
+            </div> 
+            <div class="grid-item">
+                <img src="calc.png" alt="" class="w-full h-64 object-cover">
+                <p class="text-center text-gray-100 bg-gray-700 py-4">Javascript Calculator</p>
+            </div> 
+            <div class="grid-item">
+                <img src="map.jpg" alt="" class="w-full h-64 object-cover">
+                <p class="text-center text-gray-100 bg-gray-700 py-4">Map Data Across the Globe</p>
+            </div> 
+            <div class="grid-item">
+                <img src="wiki.png" alt="" class="w-full h-64 object-cover">
+                <p class="text-center text-gray-100 bg-gray-700 py-4">Wikipedia Viewer</p>
+            </div> 
+            <div class="grid-item">
+                <img src="tic-tac-toe.png" alt="" class="w-full h-64 object-cover">
+                <p class="text-center text-gray-100 bg-gray-700 py-4">Tic Tac Toe Game</p>
+            </div> 
+        </div>
+
+        <div class="mybtn text-center mt-10">
+            <button class="px-8 py-4 bg-gray-700 text-gray-100 font-bold text-lg hover:bg-gray-600">Show all ></button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer bg-gray-800 py-20 flex flex-col items-center border-b-4 border-red-600">
+        <h3 class="text-4xl font-bold mb-4">Let's work together...</h3>
+        <p class="italic text-xl">How do you take your coffee?</p>
+
+        <div class="icons mt-8">
+            <a href="#" class="text-gray-100 text-2xl mx-4"><i class="fa-brands fa-square-facebook"></i> Facebook</a>
+            <a href="#" class="text-gray-100 text-2xl mx-4"><i class="fa-brands fa-github"></i> Github</a>
+            <a href="#" class="text-gray-100 text-2xl mx-4"><i class="fa-brands fa-twitter"></i> Twitter</a>
+            <a href="#" class="text-gray-100 text-2xl mx-4"><i class="fa-solid fa-at"></i> Send a mail</a>
+            <a href="#" class="text-gray-100 text-2xl mx-4"><i class="fa-solid fa-mobile-screen-button"></i> Call me</a>
+        </div>
+    </div>
+
+    <!-- End Line -->
+    <div class="end-line bg-gray-800 text-gray-100 py-8 text-center">
+        <p>**This is just a fake portfolio. All the projects and contact details given are not real.</p>
+        <p>© Created for Muhammad Awais</p>
+    </div>
+
+</body>
+</html>
